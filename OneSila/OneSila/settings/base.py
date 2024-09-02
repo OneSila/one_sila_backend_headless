@@ -57,6 +57,7 @@ INSTALLED_LOCAL_APPS = [
     'orders',
     'purchasing',
     'shipments',
+    'order_returns',
 
     'huey.contrib.djhuey',
 ]
@@ -187,6 +188,7 @@ STRAWBERRY_DJANGO = {
     "FIELD_DESCRIPTION_FROM_HELP_TEXT": True,
     "TYPE_DESCRIPTION_FROM_MODEL_DOCSTRING": True,
     "MAP_AUTO_ID_AS_GLOBAL_ID": True,
+    "USE_DEPRECATED_FILTERS": True,
 }
 
 # https://channels.readthedocs.io/en/stable/topics/channel_layers.html
